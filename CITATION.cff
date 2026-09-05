@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this repository or any of its PSCAD automation examples in academic, technical, or professional work, please cite it using the metadata below."
+
+title: "PSCAD Python Automation and Electromagnetic Transient Simulation Examples"
+type: software
+
+authors:
+  - family-names: "Hafner"
+    given-names: "Angelo Alfredo"
+
+date-released: "2026-09-05"
+
+repository-code: "https://github.com/USERNAME/pscad-python-automation-and-electromagnetic-transient-simulation-examples"
+
+abstract: >
+  A collection of Python automation examples for PSCAD focused on
+  electromagnetic transient simulations, power systems, power electronics,
+  harmonic analysis, automated model construction, simulation execution,
+  data extraction, and engineering post-processing.
+
+keywords:
+  - PSCAD
+  - Python
+  - Automation
+  - Electromagnetic Transients
+  - EMT
+  - Power Systems
+  - Power Electronics
+  - Harmonic Analysis
+  - FFT
