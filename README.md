@@ -578,3 +578,21 @@ Apache-2.0
 ```
 
 Choose the license according to how you want others to use, modify, and redistribute the code.
+
+
+## Animated Manim presentation
+
+An English-language presentation explains the rectifier automation and harmonic analysis workflow in 26 scenes. It renders independently of PSCAD using conceptual waveforms.
+
+- [Installation, rendering and validation](README-manim.md)
+- [Complete preview video, 480p at 15 fps](pscad_document_revision_480p.mp4)
+- [PSCAD screenshot replacement guide](docs/PSCAD_SCREENSHOT_MAP.md)
+- [Project continuity and validation](docs/CODEX_HANDOFF.md)
+
+```powershell
+python -m pip install -r requirements.txt
+python -m pytest -q
+python render_all.py --quality l --output pscad_document_revision_480p.mp4
+```
+
+The preview is silent, lasts 146.6 seconds, and is an educational visualization rather than a PSCAD numerical validation.

@@ -1,0 +1,427 @@
+﻿project,project_type,definition,scoped_name,description,group,tags,url,is_module
+master,Library,Breakers_Faults,master:Breakers_Faults,Breakers and Faults,(null),,,True
+master,Library,CSMF,master:CSMF,Control Systems Modelling Functions,(null),,,True
+master,Library,Cable1,master:Cable1,,,,,True
+master,Library,Cable_Coax,master:Cable_Coax,Cable Constants Coax Cable Data,Cables,,,False
+master,Library,Cable_CoaxSimpl,master:Cable_CoaxSimpl,Underground Cable with Simplified Interface,Cables,,,False
+master,Library,Cable_PipeOnly,master:Cable_PipeOnly,Pipe with no cables inside,Cables,,,False
+master,Library,Cable_PipeType,master:Cable_PipeType,Cable Constants Pipe-Type Cable Data,Cables,,,False
+master,Library,Cable_PipeTypeSimpl,master:Cable_PipeTypeSimpl,Pipe-Type Cable with Simplified Interface,Cables,,,False
+master,Library,Cables,master:Cables,Arial or Underground Cables,(null),,,True
+master,Library,Cosimulation,master:Cosimulation,,,,,False
+master,Library,Data_recorders_Readers,master:Data_recorders_Readers,External Data Recorders and Readers,(null),,,True
+master,Library,Dload,master:Dload,Individually configutable Delta connected load,Passive,,,False
+master,Library,Dload_3branch,master:Dload_3branch,Individually configutable Delta connected 3 branch load,Passive,,,False
+master,Library,HVDC_FACTS_PE,master:HVDC_FACTS_PE,"HVDC, FACTS and Power Electronics",(null),,,True
+master,Library,I/O_Devices,master:I/O_Devices,"Slider, switch, dial, push button, Output channel, ...",(null),,,True
+master,Library,Imports_Exports_Labels,master:Imports_Exports_Labels,"Imports, Exports and Labels",(null),,,True
+master,Library,LIne_Tower_6_Vert,master:LIne_Tower_6_Vert,Line Constants 6 Cond Vertical Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Berg_Options,master:Line_Berg_Options,Bergeron Model,"Transmission Line,Cables",,,False
+master,Library,Line_BusWork_1,master:Line_BusWork_1,Line Constants 1 Conductor Bus Bar,"Transmission Line,Cables",,,False
+master,Library,Line_BusWork_3H,master:Line_BusWork_3H,Line Constants 3 Conductor Horizontal Bus Bar,"Transmission Line,Cables",,,False
+master,Library,Line_BusWork_3V,master:Line_BusWork_3V,Line Constants 3 Conductor Vertical Bus Bar,"Transmission Line,Cables",,,False
+master,Library,Line_Constants_Debug,master:Line_Constants_Debug,,(null),,,False
+master,Library,Line_FreDep_Options,master:Line_FreDep_Options,Frequency Dependent (Mode) Model (Obsolete),(null),,,False
+master,Library,Line_FrePhase_Options,master:Line_FrePhase_Options,Frequency Dependent (Phase) Model,"Transmission Line,Cables",,,False
+master,Library,Line_Ground,master:Line_Ground,Line|Cable Constants Entry of Ground Data,"Transmission Line,Cables",,,False
+master,Library,Line_ManualYZ,master:Line_ManualYZ,Line/Cable Constants Manual Data Entry,"Transmission Line,Cables",,,False
+master,Library,Line_Out_Disp,master:Line_Out_Disp,LCP Additional Options,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_1,master:Line_Tower_1,Line Constants 1 Conductor Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_12_Vert,master:Line_Tower_12_Vert,Line Constants 12 Conductor Vertical Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_2_Flat,master:Line_Tower_2_Flat,Line Constants 2 Conductor Flat Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_3-Flat,master:Line_Tower_3-Flat,Line Constants 3 Conductor Flat Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_3_Concent,master:Line_Tower_3_Concent,Line Constants 3 Cond Concentric Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_3_Delta,master:Line_Tower_3_Delta,Line Constants 3 Conductor Delta Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_3_Offset,master:Line_Tower_3_Offset,Line Constants 3 Cond Offset Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_3_Vert,master:Line_Tower_3_Vert,Line Constants 3 Cond Vertical Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_6_Concent,master:Line_Tower_6_Concent,Line Constants 6 Cond Concentric Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_6_Delta,master:Line_Tower_6_Delta,Line Constants 6 Cond Delta Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_6_Flat,master:Line_Tower_6_Flat,Line Constants 6 Cond Flat Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_6_Offset,master:Line_Tower_6_Offset,Line Constants 6 Cond Offset Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_6_Vert1,master:Line_Tower_6_Vert1,Line Constants 6 Conductor Vertical Tower,"Transmission Line,Cables",,,False
+master,Library,Line_Tower_Universal,master:Line_Tower_Universal,Line Constants Manual Entry of XY Positions,"Transmission Line,Cables",,,False
+master,Library,Logical,master:Logical,Logic Circuits,(null),,,True
+master,Library,Machines,master:Machines,Rotating Machines,(null),,,True
+master,Library,Main,master:Main,Main Page,,,,True
+master,Library,Meters,master:Meters,"Voltmeter, Ammeter, PQ meter,...",(null),,,True
+master,Library,Miscellaneous,master:Miscellaneous,Miscellaneous Models,(null),,,True
+master,Library,PI_sections,master:PI_sections,PI sections,(null),,,True
+master,Library,PUImpedanceBranch,master:PUImpedanceBranch,RLC branch in per unit values,Passive,,,False
+master,Library,Passive,master:Passive,RLC Branches and Filters,(null),,,True
+master,Library,Protection,master:Protection,Relays and Insturment Transformers,(null),,,True
+master,Library,Sequencer,master:Sequencer,Sequencer Components,(null),,,True
+master,Library,Sequencer_Breaker,master:Sequencer_Breaker,Sequencer (Close/Open Breaker),Sequencer,,,False
+master,Library,Sequencer_Fault,master:Sequencer_Fault,Sequencer (Apply/Clear Fault),Sequencer,,,False
+master,Library,Sequencer_SetVar,master:Sequencer_SetVar,Sequencer (Set Variable),Sequencer,,,False
+master,Library,Sequencer_Start,master:Sequencer_Start,Sequencer (Start of sequence of events),Sequencer,,,False
+master,Library,Sequencer_Wait,master:Sequencer_Wait,Sequencer (Wait for an event),Sequencer,,,False
+master,Library,Sources,master:Sources,Current and Voltage Sources,(null),,,True
+master,Library,Station,master:Station,,,,,True
+master,Library,TLine,master:TLine,,,,,True
+master,Library,Tlines,master:Tlines,Transmission Lines,(null),,,True
+master,Library,Transformers,master:Transformers,Power Transformers,(null),,,True
+master,Library,Yload,master:Yload,Individually configutable Y connected load,Passive,,,False
+master,Library,Yload_3branch,master:Yload_3branch,Individually configutable Y connected 3 branch load,Passive,,,False
+master,Library,Zdelay,master:Zdelay,Z domain delay function,ZDomain,,,False
+master,Library,Zderivative,master:Zderivative,Z domain derivative with a time constant,ZDomain,,,False
+master,Library,Zdiffpole,master:Zdiffpole,Z domain differential Pole,ZDomain,,,False
+master,Library,Zintegral,master:Zintegral,Z domain integrator,ZDomain,,,False
+master,Library,Zleadlag,master:Zleadlag,Z domain lead-Lag pole,ZDomain,,,False
+master,Library,Zpi_ctlr,master:Zpi_ctlr,Z domain PI controller,ZDomain,,,False
+master,Library,Zrealpole,master:Zrealpole,Z domain real pole,ZDomain,,,False
+master,Library,Ztrans_fcnZ,master:Ztrans_fcnZ,Z domain transfer function,ZDomain,,,False
+master,Library,abcdq0,master:abcdq0,abc dq0 transformation,"CSMF,External C",,,False
+master,Library,abs,master:abs,Absolute Value,"CSMF,External C",,,False
+master,Library,ammeter,master:ammeter,Current Meter,Meters,,,False
+master,Library,angle_resolver,master:angle_resolver,Angle Resolver,"CSMF,External C",,,False
+master,Library,annotation,master:annotation,Annotation Box,(null),,,False
+master,Library,annotation2,master:annotation2,Annotation Box (Obsolete),(null),,,False
+master,Library,appg1,master:appg1,Apparent Gamma measurement,HVDC FACTS PE,,,False
+master,Library,apple21,master:apple21,Distance relay element - Apple characteristics,Protection,,,False
+master,Library,arrester,master:arrester,Arrester,Passive,,,False
+master,Library,arrow_a,master:arrow_a,Wide Arrow - Angled,(null),,,False
+master,Library,arrow_c,master:arrow_c,Wide Arrow - Curved,(null),,,False
+master,Library,arrow_s,master:arrow_s,Wide Arrow - Straight,(null),,,False
+master,Library,backlash,master:backlash,Backlash Operator,CSMF,,,False
+master,Library,battery,master:battery,Generic battery model,Sources,,,False
+master,Library,bin_delay,master:bin_delay,Timed ON/OFF Logic Transition,"CSMF,Logical,External C",,,False
+master,Library,block_avg,master:block_avg,Block average phase comparator relay,Protection,,,False
+master,Library,breaker1,master:breaker1,Single Phase Breaker,Breakers Faults,,,False
+master,Library,breaker3,master:breaker3,3 Phase Breaker,Breakers Faults,,,False
+master,Library,breakout,master:breakout,3 Phase to SLD Electrical Wire Converter,Passive,,,False
+master,Library,breakout2,master:breakout2,6 to Twin 3-Phase Splitter,Passive,,,False
+master,Library,buffer,master:buffer,Hysteresis Buffer,Logical,,,False
+master,Library,cable_interface,master:cable_interface,Cable Interface (1 of 2),Cables,,,False
+master,Library,capacitive_load,master:capacitive_load,Three phase capacitive load,Passive,,,False
+master,Library,capacitor,master:capacitor,Capacitor,Passive,,,False
+master,Library,caps,master:caps,TCR/TSC Capacitor Switching Logic,HVDC FACTS PE,,,False
+master,Library,ccvt1,master:ccvt1,CCVT - Lucas Model,Protection,,,False
+master,Library,cfilter,master:cfilter,C-type filter,Passive,,,False
+master,Library,cinj,master:cinj,Harmonic Current Injection,Sources,,,False
+master,Library,clarke,master:clarke,Clarke transformation,"CSMF,External C",,,False
+master,Library,cmplx,master:cmplx,Second Order Transfer Functions,"CSMF,External C",,,False
+master,Library,compar,master:compar,Two Input Comparator,"CSMF,External C",,,False
+master,Library,compare,master:compare,Single Input Level Comparator,"CSMF,External C",,,False
+master,Library,complex,master:complex,Second Order Complex Pole,"CSMF,External C",,,False
+master,Library,conjugate,master:conjugate,Complex conjugate,"CSMF,External C",,,False
+master,Library,const,master:const,Real Constant,"Miscellaneous,External C",,,False
+master,Library,constc,master:constc,Complex Constant,"Miscellaneous,External C",,,False
+master,Library,consti,master:consti,Integer Constant,"Miscellaneous,External C",,,False
+master,Library,constl,master:constl,Logical Constant,"Miscellaneous,External C",,,False
+master,Library,counter,master:counter,Counter,"CSMF,External C",,,False
+master,Library,coupled_2lines,master:coupled_2lines,mutually coupled 2 wires,PI sections,,,False
+master,Library,coupled_3lines,master:coupled_3lines,mutually coupled 3 wires,PI sections,,,False
+master,Library,ct_double,master:ct_double,2 CT differential configuration - JA model,Protection,,,False
+master,Library,ct_single,master:ct_single,Current Transformer - JA model,Protection,,,False
+master,Library,current_scaler,master:current_scaler,Current Scaling,,,,False
+master,Library,currenttf,master:currenttf,Current Transformer - Lucas model,Protection,,,False
+master,Library,datalabel,master:datalabel,Data signal label,"Meters,Breakers Faults,Machines,Miscellaneous",,,False
+master,Library,datamerge,master:datamerge,Merges data signals into an array,"Miscellaneous,External C",,,False
+master,Library,datatap,master:datatap,Scalar/Array Tap,"Miscellaneous,External C",,,False
+master,Library,datatap2,master:datatap2,Data Signal Array Tap (Obsolete),(null),,,False
+master,Library,db_xfmr_3p2w,master:db_xfmr_3p2w,Duality based 3 phase 2 winding transformer,Transformers,,,False
+master,Library,db_xfmr_3p3w,master:db_xfmr_3p3w,Duality based 3 phase 3 winding transformer,Transformers,,,False
+master,Library,db_xfmr_3p4w,master:db_xfmr_3p4w,Duality based 3 phase 4 winding transformer,Transformers,,,False
+master,Library,dc_mac_2w,master:dc_mac_2w,Two winding DC Machine,Machines,,,False
+master,Library,deadband,master:deadband,Deadband with offset and gain,CSMF,,,False
+master,Library,delay,master:delay,Binary ON Delay with Interpolation,CSMF,,,False
+master,Library,delta-t,master:delta-t,Output of Simulation Time-Step (DELT),Miscellaneous,,,False
+master,Library,derivative,master:derivative,Derivative with a time constant,"CSMF,External C",,,False
+master,Library,detect_change,master:detect_change,Change Detector,CSMF,,,False
+master,Library,diffpole,master:diffpole,Differential Pole,"CSMF,External C",,,False
+master,Library,dir_neg32,master:dir_neg32,Negatives sequence directional element,Protection,,,False
+master,Library,discretizer,master:discretizer,Discretizer,CSMF,,,False
+master,Library,div,master:div,Divider,"CSMF,External C",,,False
+master,Library,doblestate,master:doblestate,Doble State file generator,(null),,,False
+master,Library,dot_product,master:dot_product,DOT product of 2 arrays,"CSMF,External C",,,False
+master,Library,downramp,master:downramp,Down Ramp Transfer Function,"CSMF,External C",,,False
+master,Library,dq0,master:dq0,abc to dq0 transformation,(null),,,False
+master,Library,dscd87,master:dscd87,Dual Slope Current Differential Relay,Protection,,,False
+master,Library,dwt,master:dwt,Discrete Wavelet Transformation,CSMF,,,False
+master,Library,dynamic_datatap,master:dynamic_datatap,Dynamic datatap,Miscellaneous,,,False
+master,Library,edge,master:edge,Edge Detector,"CSMF,External C",,,False
+master,Library,electrical_tap,master:electrical_tap,Breakout subset of phases,Passive,,,False
+master,Library,emtconst,master:emtconst,Commonly Used Constants (pi...),"Miscellaneous,External C",,,False
+master,Library,exc_scrx,master:exc_scrx,Solid State Exciter,Machines,,,False
+master,Library,excac,master:excac,Type AC exciter,Machines,,,False
+master,Library,excac_2016,master:excac_2016,Type AC Exciter IEEE Std. 421.5-2016,(null),,,False
+master,Library,excac_2016_2,master:excac_2016_2,Type AC Exciter IEEE Std. 421.5-2016,Machines,,,False
+master,Library,excdc,master:excdc,Type DC Exciter,Machines,,,False
+master,Library,excdc_2016,master:excdc_2016,Type DC Exciter IEEE Std. 421.5-2016,(null),,,False
+master,Library,excdc_2016_2,master:excdc_2016_2,Type DC Exciter IEEE Std. 421.5-2016,Machines,,,False
+master,Library,exci35defn,master:exci35defn,SCRX Exciter,(null),,,False
+master,Library,excst,master:excst,Type ST exciter,Machines,,,False
+master,Library,excst_2016,master:excst_2016,Type ST Exciter IEEE Std. 421.5-2016,(null),,,False
+master,Library,excst_2016_2,master:excst_2016_2,Type ST Exciter IEEE Std. 421.5-2016,Machines,,,False
+master,Library,exp,master:exp,Exponential Functions,"CSMF,External C",,,False
+master,Library,export,master:export,Export Symbol,Imports Exports Labels,,,False
+master,Library,f_ph_mag_meter,master:f_ph_mag_meter,Frequency/ Phase/Magnitude Meter,Meters,"meter, frequency, phase",,False
+master,Library,fault_sw,master:fault_sw,Single Phase Fault,Breakers Faults,,,False
+master,Library,fdne,master:fdne,Frequency Dependent Network Equivalent,(null),,,False
+master,Library,fdne2,master:fdne2,Frequency Dependent Network Equivalent,"Passive, Sources",,,False
+master,Library,fdtf,master:fdtf,Frequency Dependent Transfer Function,CSMF,,,False
+master,Library,ff_d,master:ff_d,D Flip-Flop,(null),,,False
+master,Library,ff_jk,master:ff_jk,JK flip-Flop,(null),,,False
+master,Library,ff_rs,master:ff_rs,RS Flip-Flop,(null),,,False
+master,Library,ff_t,master:ff_t,T Flip-Flop,(null),,,False
+master,Library,fft,master:fft,On-Line Frequency Scanner,CSMF,,,False
+master,Library,fileread,master:fileread,File Read,Data recorders Readers,,,False
+master,Library,filter,master:filter,Tuned Filter ,Passive,,,False
+master,Library,filter-band,master:filter-band,Band Pass Filter,Passive,,,False
+master,Library,filter-hp,master:filter-hp,High Pass Filter,Passive,,,False
+master,Library,fixed_load,master:fixed_load,Fixed Load,Passive,,,False
+master,Library,fixed_load1,master:fixed_load1,Single Phase L-L Fixed Load,Passive,,,False
+master,Library,flip_flop,master:flip_flop,Flip-Flop and latches /w Interpolation,Logical,,,False
+master,Library,flipflop,master:flipflop,Flip-Flop,(null),,,False
+master,Library,fload,master:fload,Fixed Load,(null),,,False
+master,Library,force_dsdyn,master:force_dsdyn,Force calls following to DSDyn,Miscellaneous,,,False
+master,Library,force_dsout,master:force_dsout,Force calls following to DSOut,Miscellaneous,,,False
+master,Library,fp_int,master:fp_int,Interpolated Firing Pulses,HVDC FACTS PE,,,False
+master,Library,fplogic,master:fplogic,Firing Pulse Generator,(null),,,False
+master,Library,freq-meas,master:freq-meas,Frequency/Incremental Phase/RMS Meter,Meters,,,False
+master,Library,g6p200,master:g6p200,6 Pulse Bridge,(null),,,False
+master,Library,g6p200_2,master:g6p200_2,6 Pulse Bridge,HVDC FACTS PE,,,False
+master,Library,gain,master:gain,Gain Block,"CSMF,External C",,,False
+master,Library,ground,master:ground,Ground Symbol,"Passive,Sources,Breakers Faults,HVDC FACTS PE",,,False
+master,Library,hardlimit,master:hardlimit,Hard Limiter,"CSMF,External C",,,False
+master,Library,harmdiffmag,master:harmdiffmag,Harmonics with different magnitudes,Sources,,,False
+master,Library,hgov90defn,master:hgov90defn,Hydro Governor,(null),,,False
+master,Library,hy_gov,master:hy_gov,Hydro Governor,Machines,,,False
+master,Library,hy_tur,master:hy_tur,Hydro Turbine,Machines,,,False
+master,Library,hydro_gov,master:hydro_gov,Hydro Governor/Turbine,Machines,,,False
+master,Library,hysteresis_controller,master:hysteresis_controller,Hysteresis Controller,CSMF,,,False
+master,Library,hysteresis_reactor,master:hysteresis_reactor,Hysteresis Reactor,Passive,,,False
+master,Library,ic_engine,master:ic_engine,Internal Combustion Engine,Machines,,,False
+master,Library,import,master:import,Import Symbol,Imports Exports Labels,,,False
+master,Library,impulse,master:impulse,Impulse Generator /w Interpolation,CSMF,,,False
+master,Library,induction_machine,master:induction_machine,Induction Machine,Machines,,,False
+master,Library,inductor,master:inductor,Inductor ,Passive,,,False
+master,Library,integral,master:integral,Interpolated Integrator,"CSMF,External C",,,False
+master,Library,inv,master:inv,Interpolated Logic Inverter,Logical,,,False
+master,Library,itoc51,master:itoc51,Inverse Time Over Current Relay,Protection,,,False
+master,Library,jumper,master:jumper,(Obsolete),(null),,,False
+master,Library,jumper2,master:jumper2,(Obsolete),(null),,,False
+master,Library,jumper3,master:jumper3,(Obsolete),(null),,,False
+master,Library,l2g_imp,master:l2g_imp,Line to Ground Impedance,Protection,,,False
+master,Library,l2l_imp,master:l2l_imp,Line to Line impedance,Protection,,,False
+master,Library,latch,master:latch,RS Latch (Obsolete),(null),,,False
+master,Library,leadlag,master:leadlag,Lead-Lag,"CSMF,External C",,,False
+master,Library,lens21,master:lens21,Distance relay element - lens characteristcs,Protection,,,False
+master,Library,log,master:log,Logarithm Functions,"CSMF,External C",,,False
+master,Library,logic,master:logic,Binary Gates,(null),,,False
+master,Library,logic_mult,master:logic_mult,Multiple Input Logic Gate,Logical,,,False
+master,Library,macdefn,master:macdefn,V2 SNC375 Machine model (Obsolete),(null),,,False
+master,Library,maxmin,master:maxmin,Maximum/Minimum Functions,"CSMF,External C",,,False
+master,Library,maxmin_array,master:maxmin_array,Maximum or Minimum value and location of an array,"CSMF,External C",,,False
+master,Library,mesgam,master:mesgam,Effective Gamma Measurement,HVDC FACTS PE,,,False
+master,Library,mho_circle,master:mho_circle,Mho Circle,Protection,,,False
+master,Library,mingam,master:mingam,Minimum Gamma in one Cycle,HVDC FACTS PE,,,False
+master,Library,mmc_FiringFullBridge,master:mmc_FiringFullBridge,Firing Block for MMC Half Cell,"HVDC FACTS PE,MMC",,,False
+master,Library,mmc_FiringHalfBridge,master:mmc_FiringHalfBridge,Firing Block for MMC Half Cell,"HVDC FACTS PE,MMC",,,False
+master,Library,mmc_FullCell,master:mmc_FullCell,MMC Full Cell,"HVDC FACTS PE,MMC",,,False
+master,Library,mmc_HalfCell,master:mmc_HalfCell,MMC Half Cell,"HVDC FACTS PE,MMC",,,False
+master,Library,mmc_MultiDimCarrierGen,master:mmc_MultiDimCarrierGen,Multi Dimensional Carrier Waveform Generator for MMC,"HVDC FACTS PE,MMC",,,False
+master,Library,mmc_MultiDimComparator,master:mmc_MultiDimComparator,Multi Dimensional Comparator for MMC,"HVDC FACTS PE,MMC",,,False
+master,Library,mod,master:mod,MOD Function,"CSMF,External C",,,False
+master,Library,modulator,master:modulator,Amplitude/Frequency/Phase Modulator,"CSMF,External C",,,False
+master,Library,modulo,master:modulo,MODULO Function,"CSMF,External C",,,False
+master,Library,monostable,master:monostable,Interpolated Monostable MultiVibrator,"CSMF,External C",,,False
+master,Library,moving_average,master:moving_average,Moving Average Filter,CSMF,,,False
+master,Library,mppt,master:mppt,Maximum power point tracker for photovoltaic source,Sources,,,False
+master,Library,mrun,master:mrun,Multiple Run Component,I/O Devices,,,False
+master,Library,mrun_extra,master:mrun_extra,Multiple Run Additional Recording,"I/O Devices,Data recorders Readers",,,False
+master,Library,mult,master:mult,Multiplier,"CSMF,External C",,,False
+master,Library,multimass,master:multimass,Torsional Shaft Model (Obsolete),(null),,,False
+master,Library,multimass2,master:multimass2,Torsional Shaft Model ,Machines,,,False
+master,Library,multimassdefn,master:multimassdefn,Multimass Torsional Model,(null),,,False
+master,Library,multimeter,master:multimeter,Multimeter,Meters,,,False
+master,Library,mux,master:mux,6 Channel Multiplexer,"CSMF,External C",,,False
+master,Library,mux1,master:mux1,"4,8 Channel Multiplexer",Logical,,,False
+master,Library,mux_array,master:mux_array,N channel multiplexer,"CSMF,External C",,,False
+master,Library,newpi,master:newpi,Coupled Pi Section Transmission Line,(null),,,False
+master,Library,nl-gain,master:nl-gain,Non-Linear Gain,"CSMF,External C",,,False
+master,Library,nl_tfun,master:nl_tfun,Non-Linear Transfer Characteristic,"CSMF,External C",,,False
+master,Library,nodelabel,master:nodelabel,Electrical node label,Passive,,,False
+master,Library,nodeloop,master:nodeloop,Three Phase Electrical Node,"HVDC FACTS PE,Meters,Sources,Machines",,,False
+master,Library,num_run,master:num_run,Output of total number of multiple runs,"Miscellaneous,I/O Devices",,,False
+master,Library,oel_2016,master:oel_2016,Over Excitation Limiter IEEE Std. 421.5-2016,Machines,,,False
+master,Library,oos_lens68,master:oos_lens68,Out of step relay - lens characteristics,Protection,,,False
+master,Library,oos_mho68,master:oos_mho68,Out of step relay - mho characteristics,Protection,,,False
+master,Library,oos_poly68,master:oos_poly68,Out of step relay - polygon characteristics,Protection,,,False
+master,Library,optimum_run,master:optimum_run,Optimum Run,I/O Devices,,,False
+master,Library,over_current,master:over_current,Over current detection block,Protection,,,False
+master,Library,overcurrent,master:overcurrent,Over current detection block,(null),,,False
+master,Library,pause,master:pause,Programmable pause,I/O Devices,,,False
+master,Library,peswitch,master:peswitch,Power electronic switch,HVDC FACTS PE,,,False
+master,Library,pgb,master:pgb,Output Channel,I/O Devices,,,False
+master,Library,phasediff,master:phasediff,Phase Difference,Meters,,,False
+master,Library,phasorimp,master:phasorimp,Interface to Harmonic Impedance Solution,Meters,,,False
+master,Library,phdx,master:phdx,XOR Phase Difference,"CSMF,External C",,,False
+master,Library,photovoltaic_source,master:photovoltaic_source,photovoltaic source,Sources,,,False
+master,Library,photovoltaic_source2,master:photovoltaic_source2,photovoltaic source,Sources,,,False
+master,Library,pi-section,master:pi-section,Pi-Section (Obsolete),(null),,,False
+master,Library,pi_ctlr,master:pi_ctlr,PI Controller \w Interpolation,"CSMF,External C",,,False
+master,Library,pi_double_cct,master:pi_double_cct,Double Circuit Pi Section,PI sections,,,False
+master,Library,pi_section,master:pi_section,Single or Three  Phase Pi Section Transmission Line,PI sections,,,False
+master,Library,pi_section2,master:pi_section2,Coupled PI section Transmission line,(null),,,False
+master,Library,pid_controller,master:pid_controller,PID Controller,CSMF,"Proportional, Derivative, Integral, PID",,False
+master,Library,pin,master:pin,Signal Junction,"Passive,Miscellaneous",,,False
+master,Library,pm_machine,master:pm_machine,Permanent Magnet Synchronous Machine,Machines,,,False
+master,Library,polar_rec,master:polar_rec,Polar Rectangular coordinate converter,"CSMF,External C",,,False
+master,Library,polpi5,master:polpi5,Generic Current Controller,HVDC FACTS PE,,,False
+master,Library,power,master:power,Real/Reactive Power Meter,Meters,,,False
+master,Library,prod_array,master:prod_array,Product of all elements in an array,"CSMF,External C",,,False
+master,Library,pss,master:pss,Power System Stabilizer,Machines,,,False
+master,Library,pss_2016,master:pss_2016,Power System Stabilizer IEEE Std. 421.5-2016,Machines,,,False
+master,Library,pt1,master:pt1,PT - Lucas Model,Protection,,,False
+master,Library,pudot,master:pudot,Pick-up Drop-out Timer,"CSMF,Logical",,,False
+master,Library,pwm_hcc,master:pwm_hcc,PWM Generator (Hysteresis Current Control),HVDC FACTS PE,,,False
+master,Library,radiolink,master:radiolink,Wireless connection,Imports Exports Labels,,,False
+master,Library,random,master:random,Random Number Generator,CSMF,,,False
+master,Library,range,master:range,Range Comparator,"CSMF,External C",,,False
+master,Library,rank_number,master:rank_number,Output of Rank Number,"Miscellaneous,I/O Devices",,,False
+master,Library,ratelimit,master:ratelimit,Rate Limiter,"CSMF,External C",,,False
+master,Library,ratio_changer_2w,master:ratio_changer_2w,Ideal 2 Winding Ratio Changer (Transformer),"Sources,Transformers",,,False
+master,Library,reactive_load,master:reactive_load,Three phase inductive load,Passive,,,False
+master,Library,realpole,master:realpole,Real Pole,"CSMF,External C",,,False
+master,Library,recorder2_0,master:recorder2_0,RTP and COMTRADE recorder,Data recorders Readers,,,False
+master,Library,recorder3_0,master:recorder3_0,COMTRADE recorder,Data recorders Readers,,,False
+master,Library,resistive_load,master:resistive_load,Three phase resistive load,Passive,,,False
+master,Library,resistor,master:resistor,Resistor ,Passive,,,False
+master,Library,rms-inst,master:rms-inst,Single Phase RMS Meter,Meters,,,False
+master,Library,rms3ph,master:rms3ph,Three Phase RMS Meter,Meters,,,False
+master,Library,rrl,master:rrl,Series Parallel Resistor/Inductor,(null),,,False
+master,Library,rsff,master:rsff,RS Flip-Flop (Obsolete),(null),,,False
+master,Library,rtcbranch,master:rtcbranch,Runtime Configurable Passive Branch,Passive,,,False
+master,Library,run_num,master:run_num,Output of Current Run Number,"Miscellaneous,I/O Devices",,,False
+master,Library,sampler,master:sampler,Interpolating Sampler,"CSMF,External C",,,False
+master,Library,sandhdefn,master:sandhdefn,Sample and Hold,"CSMF,External C",,,False
+master,Library,sat_reac,master:sat_reac,Saturable Reactor,Passive,,,False
+master,Library,scale_changer,master:scale_changer,Scale Changer,CSMF,,,False
+master,Library,scl_2016,master:scl_2016,Stator Current Limiter IEEE Std. 421.5-2016,Machines,,,False
+master,Library,select,master:select,Two Input Selector,"CSMF,External C",,,False
+master,Library,seq_filter,master:seq_filter,Sequence Filter,Protection,,,False
+master,Library,sequential,master:sequential,Sequential Number Generator,"CSMF,External C",,,False
+master,Library,shiftreg,master:shiftreg,Interpolated Serial-In/Serial-Out Shift Register,Logical,,,False
+master,Library,short,master:short,3 phase short,Passive,,,False
+master,Library,sig_gen,master:sig_gen,Variable Frequency Sawtooth Generator,"CSMF,External C",,,False
+master,Library,sign,master:sign,Sign Function,"CSMF,External C",,,False
+master,Library,signalgen,master:signalgen,Signal Generator /w Interpolation,"CSMF,External C",,,False
+master,Library,sorter,master:sorter,Sort indexer,"CSMF,MMC",,,False
+master,Library,source1,master:source1,Single Phase Voltage Source Model 1,Sources,,,False
+master,Library,source3,master:source3,Three Phase Voltage Source Model 1,Sources,,,False
+master,Library,source3R,master:source3R,Three Phase Voltage Source Model 3,Sources,,,False
+master,Library,source_1,master:source_1,Single Phase Voltage Source Model 2,Sources,,,False
+master,Library,source_3,master:source_3,Three Phase Voltage Source Model 2,Sources,,,False
+master,Library,source_vltg_dependent_voltage,master:source_vltg_dependent_voltage,Voltage Dependent Voltage Source,Sources,,,False
+master,Library,spark_gap,master:spark_gap,Spark Gap,Passive,,,False
+master,Library,spim_uw,master:spim_uw,Single Phase Induction Machine,Machines,,,False
+master,Library,sqc100,master:sqc100,Squirrel Cage Induction Machine,(null),,,False
+master,Library,sqrt,master:sqrt,Square Root,"CSMF,External C",,,False
+master,Library,square,master:square,Square,"CSMF,External C",,,False
+master,Library,src_ccin_1,master:src_ccin_1,Current Source,Sources,,,False
+master,Library,src_ccin_3,master:src_ccin_3,3 Phase Current Source,Sources,,,False
+master,Library,src_current_dependent_current,master:src_current_dependent_current,Current Dependent Current Source,Sources,,,False
+master,Library,src_voltage_dependent_current,master:src_voltage_dependent_current,Voltage Dependent Current Source,Sources,,,False
+master,Library,sregis,master:sregis,Shift Register,(null),,,False
+master,Library,statistical_breaker,master:statistical_breaker,Breaker close signal generation with statistical distribution,Breakers Faults,,,False
+master,Library,stop,master:stop,Programmable stop,I/O Devices,,,False
+master,Library,sum_array,master:sum_array,Sum of all elements in an array,"CSMF,External C",,,False
+master,Library,sumjct,master:sumjct,Summing/Differencing Junctions,"CSMF,External C",,,False
+master,Library,surge,master:surge,Surge Generator,"CSMF,External C",,,False
+master,Library,surge1,master:surge1,"Surge Generator (CIGRE, IEC or IEEE Std.)","CSMF,External C",,,False
+master,Library,svc,master:svc,Static Var Compensator,HVDC FACTS PE,,,False
+master,Library,svcalloc1,master:svcalloc1,TSC/TCR Non-Linear Susceptance Characteristics,HVDC FACTS PE,,,False
+master,Library,svm,master:svm,SVM Firing Pulse Generator,HVDC FACTS PE,,,False
+master,Library,switch,master:switch,Isolation Switch,Breakers Faults,,,False
+master,Library,sync_machine,master:sync_machine,Synchronous Machine,Machines,,,False
+master,Library,sync_machine2,master:sync_machine2,Synchronous Machine with Simplified Interface,Machines,,,False
+master,Library,tbreak,master:tbreak,Timed Breaker Logic (Obsolete),(null),,,False
+master,Library,tbreakn,master:tbreakn,Timed Breaker Logic,Breakers Faults,,,False
+master,Library,tdelay,master:tdelay,Delay Function,"CSMF,External C",,,False
+master,Library,tfault,master:tfault,Timed Fault Logic,(null),,,False
+master,Library,tfaultn,master:tfaultn,Timed Fault Logic,Breakers Faults,,,False
+master,Library,th_gov,master:th_gov,Thermal Governor,Machines,,,False
+master,Library,th_tur,master:th_tur,Thermal Turbine,Machines,,,False
+master,Library,thd,master:thd,Harmonic Distortion Calculator,CSMF,,,False
+master,Library,time-enab,master:time-enab,,(null),,,False
+master,Library,time-sig,master:time-sig,Output of Simulation Time,Miscellaneous,,,False
+master,Library,timer,master:timer,Timer,"CSMF,External C",,,False
+master,Library,timerdefn,master:timerdefn,,(null),,,False
+master,Library,tline_interface,master:tline_interface,Transmission Line Interface (1 of 2),Transmission Line,,,False
+master,Library,tline_interface_v2,master:tline_interface_v2,V2 Style TLine Connection,(null),,,False
+master,Library,tpflt,master:tpflt,Three Phase Fault,Breakers Faults,,,False
+master,Library,trans_fcn,master:trans_fcn,Nth Order Transfer Function,"CSMF,External C",,,False
+master,Library,trans_filt,master:trans_filt,Nth Order Butterworth/Chebyshev Filter,"CSMF,External C",,,False
+master,Library,trig,master:trig,Trigonometric Functions,"CSMF,External C",,,False
+master,Library,trip_polygon,master:trip_polygon,Trip polygon,Protection,,,False
+master,Library,trv,master:trv,TRV envelope generator and failure detection,Breakers Faults,,,False
+master,Library,tsc_control,master:tsc_control,Thyristor Switched Capacitor Allocator,HVDC FACTS PE,,,False
+master,Library,tvekt,master:tvekt,(Obsolete),(null),,,False
+master,Library,tvekta,master:tvekta,Phase-Locked Loop,"CSMF,External C",,,False
+master,Library,twist,master:twist,Twist,Passive,,,False
+master,Library,txferfnc,master:txferfnc,Generic Transfer Function,"CSMF,External C",,,False
+master,Library,uel_2016,master:uel_2016,Under Excitation Limiter IEEE Std. 421.5-2016,Machines,,,False
+master,Library,umec-xfmr-2w,master:umec-xfmr-2w,Single Phase 2 Winding UMEC Transformer,Transformers,,,False
+master,Library,umec-xfmr-3w,master:umec-xfmr-3w,Single Phase 3 Winding UMEC Transformer (Obsolete),(null),,,False
+master,Library,umec-xfmr-3w2,master:umec-xfmr-3w2,Single Phase 3 Winding UMEC Transformer,Transformers,,,False
+master,Library,umec-xfmr-4w,master:umec-xfmr-4w,Single Phase 4 Winding UMEC Transformer,Transformers,,,False
+master,Library,umec-xfmr-6w5L,master:umec-xfmr-6w5L,3/5 Limb UMEC Transformer,Transformers,,,False
+master,Library,unity,master:unity,Type/Shape conversion block,"Miscellaneous,External C",,,False
+master,Library,upramp,master:upramp,Up Ramp Transfer Function,"CSMF,External C",,,False
+master,Library,var,master:var,Variable Input Slider,I/O Devices,,,False
+master,Library,var_button,master:var_button,Push Button,I/O Devices,,,False
+master,Library,var_impedance,master:var_impedance,Variable Series Impedance Branch,Passive,,,False
+master,Library,var_plotstep,master:var_plotstep,Variable Plotstep,I/O Devices,,,False
+master,Library,var_pot,master:var_pot,Rotary Switch,I/O Devices,,,False
+master,Library,var_switch,master:var_switch,Two State Switch,I/O Devices,,,False
+master,Library,varpf_2016,master:varpf_2016,VAr/pf Controller IEEE Std. 421.5-2016,Machines,,,False
+master,Library,varrlc,master:varrlc,"Variable R, L or C ",Passive,,,False
+master,Library,vco,master:vco,Voltage-Controlled Oscillator,"CSMF,External C",,,False
+master,Library,vdcl,master:vdcl,Voltage Dependent Current Limits,HVDC FACTS PE,,,False
+master,Library,vdvoci,master:vdvoci,CCCM controler for inverter,HVDC FACTS PE,,,False
+master,Library,vdvocr,master:vdvocr,CCCM controller for rectifier,HVDC FACTS PE,,,False
+master,Library,vector,master:vector,Bus/Line Converter (Obsolete),(null),,,False
+master,Library,vector_interlace,master:vector_interlace,Vector Interlace,I/O Devices,,,False
+master,Library,vector_merge,master:vector_merge,Vector Merger (Obsolete),(null),,,False
+master,Library,vg6p18,master:vg6p18,Generic Gamma Controller,HVDC FACTS PE,,,False
+master,Library,voltlvl,master:voltlvl,Voltage Level Controller,(null),,,False
+master,Library,voltmeter,master:voltmeter,Voltmeter (Line - Line),Meters,,,False
+master,Library,voltmetergnd,master:voltmetergnd,Voltmeter (Line - Ground),Meters,,,False
+master,Library,wind_governor,master:wind_governor,Wind Turbine Governor,Machines,,,False
+master,Library,wind_source,master:wind_source,Wind Source,Machines,,,False
+master,Library,wind_turbine,master:wind_turbine,Wind Turbine,Machines,,,False
+master,Library,wound_rotor,master:wound_rotor,Wound Rotor Induction Machine,(null),,,False
+master,Library,x_power_y,master:x_power_y,X to the power of Y,"CSMF,External C",,,False
+master,Library,xfmr-2w,master:xfmr-2w,Single Phase 2 Winding Transfomer,(null),,,False
+master,Library,xfmr-3p2w,master:xfmr-3p2w,3 Phase 2 Winding Transformer,(null),,,False
+master,Library,xfmr-3p3w,master:xfmr-3p3w,3 Phase 3 Winding Transformer,(null),,,False
+master,Library,xfmr-3p3w2,master:xfmr-3p3w2,3 Phase 3 Winding Transformer,(null),,,False
+master,Library,xfmr-3p4w,master:xfmr-3p4w,3 Phase 4 Winding Transformer,(null),,,False
+master,Library,xfmr-3p4w2,master:xfmr-3p4w2,3 Phase 4 Winding Transformer,(null),,,False
+master,Library,xfmr-3w,master:xfmr-3w,Single Phase 3 Winding Transformer,(null),,,False
+master,Library,xfmr-3w2,master:xfmr-3w2,Single Phase 3 Winding Transformer,(null),,,False
+master,Library,xfmr-4w,master:xfmr-4w,Single Phase 4 Winding Transformer,(null),,,False
+master,Library,xfmr_1p2w,master:xfmr_1p2w,1 Phase 2 Winding Transformer,Transformers,,,False
+master,Library,xfmr_1p2w_auto,master:xfmr_1p2w_auto,1 Phase Auto Transformer,Transformers,,,False
+master,Library,xfmr_1p3w,master:xfmr_1p3w,1 Phase 3 Winding Transformer,Transformers,,,False
+master,Library,xfmr_1p3w_auto,master:xfmr_1p3w_auto,1 Phase Auto Transformer with a Tertiary,Transformers,,,False
+master,Library,xfmr_1p4w,master:xfmr_1p4w,1 Phase 4 Winding Transformer,Transformers,,,False
+master,Library,xfmr_2w_auto,master:xfmr_2w_auto,Single Phase Auto Transformer,(null),,,False
+master,Library,xfmr_3p2w,master:xfmr_3p2w,3 Phase 2 Winding Transformer,Transformers,,,False
+master,Library,xfmr_3p2w_auto,master:xfmr_3p2w_auto,3 Phase Star-Star Auto Transfomer,(null),,,False
+master,Library,xfmr_3p2w_auto2,master:xfmr_3p2w_auto2,3 Phase Star-Star Auto Transformer,Transformers,,,False
+master,Library,xfmr_3p3w,master:xfmr_3p3w,3 Phase 3 Winding Transformer,Transformers,,,False
+master,Library,xfmr_3p3w_auto,master:xfmr_3p3w_auto,3 Phase Star-Star Auto Transfomer with a tertiary,(null),,,False
+master,Library,xfmr_3p3w_auto2,master:xfmr_3p3w_auto2,3 Phase Star-Star Auto Transformer with a Tertiary,Transformers,,,False
+master,Library,xfmr_3p4w,master:xfmr_3p4w,3 Phase 4 Winding Transformer,Transformers,,,False
+master,Library,xfmr_3w_auto,master:xfmr_3w_auto,Single Phase 3 Winding Auto Transformer,(null),,,False
+master,Library,xfmr_Nw,master:xfmr_Nw,Single Phase N Winding Transformer,Transformers,,,False
+master,Library,xnode,master:xnode,External Electrical Node,Imports Exports Labels,,,False
+master,Library,xy_table,master:xy_table,X-Y table,"CSMF,Data recorders Readers",,,False
+master,Library,xy_transfer_function,master:xy_transfer_function,X-Y transfer function,"CSMF,Data recorders Readers,External C",,,False
+master,Library,xyz_tf,master:xyz_tf,XYZ transfer function,"CSMF,Data recorders Readers,External C",,,False
+master,Library,zerodetect,master:zerodetect,Interpolated Zero Detector,"CSMF,External C",,,False
+master,Library,zminusone,master:zminusone,Feedback Loop Selector,Miscellaneous,,,False
+NewCase,Case,DS,NewCase:DS,,,,,True
+NewCase,Case,Main,NewCase:Main,,,,,True

@@ -1,0 +1,4 @@
+# Version validated by the document-driven scene revision.
+manim==0.20.1
+numpy>=2.1,<3
+pytest>=8,<10

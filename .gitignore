@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.idea/
+media/
+PSCAD_Project/
+pscad_component_database/
+docs/source_review/
